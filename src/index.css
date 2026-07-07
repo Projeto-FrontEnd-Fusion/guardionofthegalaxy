@@ -1,17 +1,18 @@
 @import 'tailwindcss';
 
 :root {
-  --text: #9ca3af;
+  scroll-behavior: smooth;
+  --text: #c4c4c4;
   --text-h: #ffffff;
-  --bg: #020617;
-  --border: rgba(219, 39, 119, 0.2);
+  --bg: #000;
+  --accent: #b24fff;
 
-  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
-  --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
+  --sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --heading: 'Outfit', 'Inter', system-ui, -apple-system, sans-serif;
   --mono: ui-monospace, Consolas, monospace;
 
-  font: 18px/145% var(--sans);
-  letter-spacing: 0.18px;
+  font: 16px/160% var(--sans);
+  letter-spacing: 0.01em;
   color-scheme: dark;
   color: var(--text);
   background: var(--bg);
@@ -28,26 +29,12 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #020617;
-  background-image:
-    radial-gradient(
-      ellipse at center,
-      rgba(15, 23, 42, 0.2) 0%,
-      rgba(2, 6, 23, 0.9) 100%
-    ),
-    url('https://unsplash.com');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-color: #000;
 }
 
 #root {
   width: 100%;
-  max-width: 100%;
-  margin: 0;
-  padding: 0;
-  min-height: 100vh;
+  min-height: 100svh;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
@@ -57,9 +44,27 @@ h1,
 h2,
 h3 {
   font-family: var(--heading);
+  color: var(--text-h);
   margin: 0;
+}
+
+h1 {
+  font-weight: 700;
+  font-style: italic;
+}
+
+h2 {
+  font-weight: 700;
+  font-style: italic;
 }
 
 p {
   margin: 0;
+  font-family: var(--sans);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
