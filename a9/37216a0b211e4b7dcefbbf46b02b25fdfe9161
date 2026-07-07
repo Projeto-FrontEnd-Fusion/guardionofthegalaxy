@@ -1,0 +1,31 @@
+index.html
+  s_fef0c79b1ec7d5::t_2b2dfe4a004e26 7-11
+src/App.css
+  s_fef0c79b1ec7d5::t_dbe8c19d66cb4a 1-6,8-10,14-17,19-21,23,25-27,29-41,43-63,67,70-77,80-91,93,95-115,117-121,124-142,144-153,157,159-172,174-176,178,180-194,197-206,210,213-217,219-224,226,228-247,250-255
+src/index.css
+  s_fef0c79b1ec7d5::t_f54961ab7c390f 4-5,7-8,10-11,14-15,32,37,47,51-60,63-69
+src/App.tsx
+  s_fef0c79b1ec7d5::t_b9b8cb64ba2594 20-23
+  h_8e5d3e2ce230b9 1-4,8-13,15-19
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "a937216a0b211e4b7dcefbbf46b02b25fdfe9161",
+  "prompts": {},
+  "humans": {
+    "h_8e5d3e2ce230b9": {
+      "author": "Claudio Silwa <claudiosilva.one@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_fef0c79b1ec7d5": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "5f877225-6354-4770-bbc0-340a5ed32abf",
+        "model": "deepseek-v4-flash"
+      },
+      "human_author": "Claudio Silwa <claudiosilva.one@gmail.com>"
+    }
+  }
+}
