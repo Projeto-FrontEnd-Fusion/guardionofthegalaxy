@@ -23,7 +23,7 @@ const About = () => {
               display: 'flex',
               alignItems: 'center',
               justifyContent: 'center',
-              boxShadow: '0px 4px 10px 0px #FFFFFF33',
+              textShadow: '0px 0px 10px #FFFFFF66, 0px 0px 20px #FFFFFF33',
               opacity: 1,
               margin: '0 auto',
             }}
