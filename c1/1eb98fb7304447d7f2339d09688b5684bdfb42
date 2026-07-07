@@ -1,0 +1,26 @@
+src/components/HowItWorks.tsx
+  h_8e5d3e2ce230b9 1-126
+src/App.tsx
+  s_fef0c79b1ec7d5::t_bd039ec1f8e813 4,14
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "c11eb98fb7304447d7f2339d09688b5684bdfb42",
+  "prompts": {},
+  "humans": {
+    "h_8e5d3e2ce230b9": {
+      "author": "Claudio Silwa <claudiosilva.one@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_fef0c79b1ec7d5": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "5f877225-6354-4770-bbc0-340a5ed32abf",
+        "model": "deepseek-v4-flash"
+      },
+      "human_author": "Claudio Silwa <claudiosilva.one@gmail.com>"
+    }
+  }
+}
