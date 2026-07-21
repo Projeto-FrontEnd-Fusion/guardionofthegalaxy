@@ -1,7 +1,7 @@
 import Linkedin from '../assets/social_icons/linkedin.png';
 import Instagram from '../assets/social_icons/instagram.png';
 import Discord from '../assets/social_icons/discord.png';
-import ButtonWithLink from './ButtonWithLink';
+import SocialLink from './SocialLink';
 
 const Footer = () => {
   const ButtonData = [
@@ -32,7 +32,7 @@ const Footer = () => {
       </p>
       <div className="flex flex-row items-center gap-x-2.5 mt-2 xl:mt-0 xl:gap-x-5">
         {ButtonData.map(({ id, alt, icon, link }) => (
-          <ButtonWithLink
+          <SocialLink
             key={id}
             alt={alt}
             icon={icon}
