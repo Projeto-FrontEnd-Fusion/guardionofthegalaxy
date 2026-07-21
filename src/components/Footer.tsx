@@ -1,7 +1,7 @@
 import Linkedin from '../assets/social_icons/linkedin.png';
 import Instagram from '../assets/social_icons/instagram.png';
 import Discord from '../assets/social_icons/discord.png';
-import ButtonWithLink from '@/components/ButtonWithLink';
+import ButtonWithLink from './ButtonWithLink';
 
 const Footer = () => {
   const ButtonData = [
