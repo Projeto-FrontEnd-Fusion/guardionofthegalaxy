@@ -1,5 +1,21 @@
 /* Tailwind is used for most styles. Custom styles can be added here. */
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+.font-inter {
+  font-family: 'Inter', sans-serif;
+}
+
+.font-chakra {
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+.shadow-miniCard {
+  box-shadow: 0px 0px 5px -5px #ffffff;
+}
+
 @keyframes fade-in-down {
   0% {
     opacity: 0;
