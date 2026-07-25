@@ -14,7 +14,7 @@ const Footer = () => {
             alt={alt}
             icon={icon}
             link={link}
-            size="w-[1.5em] lg:w-12"
+            size="w-[1.5em] lg:w-13 xll:w-14"
           />
         ))}
       </div>
