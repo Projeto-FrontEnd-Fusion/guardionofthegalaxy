@@ -7,7 +7,7 @@ import ReactIcon from '../../assets/Tecs_icons/icons/react.png';
 import Supabase from '../../assets/Tecs_icons/icons/supabase.png';
 import Tailwind from '../../assets/Tecs_icons/icons/tailwind.png';
 import Tanstack from '../../assets/Tecs_icons/icons/tanstack.png';
-import BgDesktop from '../../assets/Tecs_icons/tec_bg/bg-desktop.png';
+import Bg from '../../assets/Tecs_icons/tec_bg/bg-mobile.jpg';
 
 export {
   star,
@@ -19,5 +19,5 @@ export {
   Supabase,
   Tailwind,
   Tanstack,
-  BgDesktop,
+  Bg,
 };
