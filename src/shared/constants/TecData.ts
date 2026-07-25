@@ -7,7 +7,7 @@ import {
   Tanstack,
   Axios,
   Poetry,
-} from './Tec_images';
+} from '../../assets/Tecs_icons/Tec_images';
 
 export const tecData = [
   {
