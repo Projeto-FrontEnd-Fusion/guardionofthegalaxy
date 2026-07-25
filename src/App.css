@@ -16,6 +16,10 @@
   box-shadow: 0px 0px 5px -5px #ffffff;
 }
 
+@theme {
+  --breakpoint-xll: 90rem;
+}
+
 @keyframes fade-in-down {
   0% {
     opacity: 0;
