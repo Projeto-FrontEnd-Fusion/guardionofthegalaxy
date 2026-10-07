@@ -3,6 +3,7 @@ import Hero from './components/Hero';
 import About from './components/About';
 import HowItWorks from './components/HowItWorks';
 import './App.css';
+import Footer from './components/Footer';
 
 export default function App() {
   return (
@@ -13,16 +14,7 @@ export default function App() {
         <About />
         <HowItWorks />
       </main>
-
-      <footer
-        className="py-10 border-t border-white/5 bg-black text-center text-gray-600 text-[13px]"
-        style={{ fontFamily: 'Inter, sans-serif' }}
-      >
-        <p>
-          &copy; {new Date().getFullYear()} Guardiões da Galáxia. Todos os
-          direitos reservados.
-        </p>
-      </footer>
+      <Footer />
     </div>
   );
 }

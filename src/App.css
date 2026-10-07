@@ -1,4 +1,9 @@
 /* Tailwind is used for most styles. Custom styles can be added here. */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.font-roboto {
+  font-family: 'Roboto', sans-serif;
+}
 
 @keyframes fade-in-down {
   0% {
