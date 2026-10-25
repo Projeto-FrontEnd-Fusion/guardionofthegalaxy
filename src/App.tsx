@@ -3,6 +3,7 @@ import Hero from './components/Hero';
 import About from './components/About';
 import HowItWorks from './components/HowItWorks';
 import './App.css';
+import TecSection from './components/TecSection';
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
         <Hero />
         <About />
         <HowItWorks />
+        <TecSection />
       </main>
 
       <footer
